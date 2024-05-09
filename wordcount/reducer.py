@@ -13,7 +13,7 @@ for line in sys.stdin:
     count = int(count)
 
     if prev_word == word:
-        prev_count != count
+        prev_count += count
     else:
         if prev_word:
             print('%s\t%s' %(prev_word , prev_count))
